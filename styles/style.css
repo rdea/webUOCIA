@@ -1,0 +1,403 @@
+/* --- Estilos Generales --- */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-color: #fdf0d5; /* Fondo suave */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center; /* Centra todo horizontalmente */
+}
+.libro-abierto {
+    background: white;
+    width: 90%; /* Ocupa casi todo el ancho en móviles */
+    max-width: 800px; /* Pero no más de 800px en pantallas grandes */
+    margin: 40px auto; /* Margen arriba/abajo y centrado lateral */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    flex: 1; /* Esto empuja el footer hacia abajo */
+    box-sizing: border-box; /* Para que el padding no sume ancho extra */
+}
+/* --- Cabecera --- */
+.cabecera-infantil {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.titulo-animado {
+    color: #ff6b6b; /* Rojo pastel */
+    font-size: 3rem;
+    text-shadow: 2px 2px 0px #feca57; /* Sombra amarilla */
+    margin: 10px 0;
+}
+
+.subtitulo {
+    font-size: 1.3rem;
+    color: #5f27cd; /* Morado pastel */
+    font-weight: bold;
+}
+
+/* --- Nube de Botones Gráfica --- */
+.nube-botones {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.btn-filtro {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px; /* Muy redondeado */
+    background: #54a0ff; /* Azul pastel base */
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 6px 0px #2e86de; /* Efecto 3D de botón */
+    transition: all 0.2s ease;
+    text-transform: capitalize;
+}
+
+.btn-filtro:hover {
+    transform: translateY(2px);
+    box-shadow: 0 4px 0px #2e86de;
+}
+
+.btn-filtro.active {
+    background: #ff9f43; /* Naranja activo */
+    box-shadow: 0 6px 0px #ee5253;
+}
+
+/* --- Rejilla de Tarjetas (Lo más visual) --- */
+.rejilla-grafica {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.tarjeta-cuento {
+    background: white;
+    border-radius: 30px; /* Bordes muy redondeados */
+    overflow: hidden; /* IMPORTANTE: Corta la imagen si se sale de los bordes redondeados */
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border: 8px solid white; /* Efecto marco de foto blanca */
+}
+
+.tarjeta-cuento:hover {
+    transform: scale(1.05) rotate(1deg); /* Animación juguetona */
+}
+
+.portada-contenedor {
+    width: 100%;
+    height: 200px; /* Altura fija para la imagen en la tarjeta */
+    
+    /* ESTAS TRES LÍNEAS SON LA CLAVE PARA IMÁGENES PERFECTAS */
+    background-size: cover;     /* La imagen se estira para cubrir todo el espacio sin deformarse */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat;
+    
+    position: relative;
+}
+
+.tags-contenedor {
+    position: absolute;
+    top: 15px; left: 15px;
+    display: flex; gap: 5px;
+}
+
+.categoria-tag {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.info-cuento {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-cuento h3 {
+    margin: 0 0 10px 0;
+    color: #2c3e50;
+    font-size: 1.5rem;
+}
+
+.info-cuento p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin: 0 0 15px 0;
+}
+
+/* Botón flotante de Play sobre la imagen */
+.btn-play-flotante {
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background: #ff6b6b; /* Rojo vibrante */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid white;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+/* Estilo específico para el icono de la flecha */
+.btn-play-flotante i {
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 5px; /* Ajuste óptico para que la flecha parezca centrada */
+}
+/* Animación cuando el niño pasa el ratón sobre la tarjeta */
+.tarjeta-cuento:hover .btn-play-flotante {
+    transform: scale(1.2) rotate(15deg);
+    background: #54a0ff; /* Cambia a azul al pasar el ratón */
+    box-shadow: 0 4px 20px rgba(84, 160, 255, 0.5);
+}
+.tarjeta-cuento:hover .btn-play-flotante {
+    transform: scale(1.1) rotate(15deg);
+}
+
+/* --- Modal Estilo Libro Abierto --- */
+.modal-libro {
+    display: none;
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0,0,0,0.7);
+    backdrop-filter: blur(5px);
+    z-index: 1000;
+}
+
+.contenido-libro {
+    background: white;
+    background-image: linear-gradient(90deg, #f2f2f2 0%, #ffffff 5%, #ffffff 95%, #f2f2f2 100%); /* Efecto páginas */
+    margin: 5vh auto;
+    padding: 50px;
+    width: 90%;
+    max-width: 800px;
+    border-radius: 15px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.3);
+    position: relative;
+    max-height: 85vh;
+    overflow-y: auto;
+    border: 15px solid #8b4513; /* Marco color madera/tapa de libro */
+}
+
+.cerrar-libro {
+    position: absolute;
+    top: 15px; right: 25px;
+    font-size: 40px;
+    color: #8b4513;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Texto dentro del cuento */
+.texto-cuento p {
+    font-size: 1.3rem; /* Letra grande para niños */
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+.footer-magico {
+  background-color: #f0f9ff; /* Azul muy clarito */
+  color: #555;
+  padding: 40px 20px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-top: 5px solid #ffb347; /* Borde naranja como el botón "Todos" */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section h3 {
+  color: #ff7e5f; /* Tono cálido */
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #4a90e2; /* Azul de los botones */
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  color: #ffb347;
+}
+
+.footer-social span {
+  font-size: 24px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.cuerpo-lectura {
+    background-color: #fdf0d5; /* Color papel antiguo */
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.libro-abierto {
+    background: white;
+    max-width: 900px;
+    padding: 60px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    position: relative;
+}
+
+.btn-volver {
+    display: inline-block;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #ff6b6b;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.texto-grande p {
+    font-size: 1.5rem; /* Letra grande para niños */
+    line-height: 2;
+    color: #333;
+}
+
+/* 1. Contenedor principal del multimedia dentro del libro */
+.video-contenedor {
+    max-width: 100%; /* Nunca dejes que el contenedor sea más ancho que su padre */
+    margin: 0 auto 30px auto; /* Centrar horizontalmente y dar espacio abajo */
+    text-align: center;
+    border-radius: 15px; /* Bordes redondeados para el video */
+    overflow: hidden; /* Asegura que el video respete los bordes redondeados */
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2); /* Sombra suave para que resalte */
+}
+
+/* 2. Regla mágica para el video en sí */
+.video-contenedor video {
+    width: 100% !important; /* Estira el video para que ocupe TODO el ancho del contenedor */
+    height: auto !important; /* Ajusta la altura automáticamente para no deformarlo */
+    display: block; /* Elimina espacios extra abajo */
+    border-radius: 15px; /* Duplicamos aquí por si acaso el contenedor no lo coge */
+}
+
+/* 3. Por si usaras YouTube (iframe), esta es la regla estándar */
+.video-contenedor iframe {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9; /* Mantener la proporción estándar de YouTube */
+    border-radius: 15px;
+    border: none;
+}
+
+/* --- Estilos del Footer --- */
+.footer-magico {
+    width: 100%; 
+    background-color: white;
+    border-top: 5px solid #feca57;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto; /* Se asegura de estar al final */
+}
+
+.footer-contenido p {
+    font-size: 1.2rem;
+    color: #5f27cd;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.autor-info {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 15px;
+}
+
+.iconos-footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.5rem;
+}
+
+/* Colores mágicos para los iconos */
+.fa-star { color: #feca57; }
+.fa-heart { color: #ff6b6b; }
+.fa-moon { color: #54a0ff; }
+
+/* Efecto de parpadeo suave para los iconos */
+.iconos-footer i {
+    animation: latido 2s infinite ease-in-out;
+}
+
+@keyframes latido {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+}
+/* style.css */
+
+#texto-cuento img {
+    max-width: 100%;    /* No permite que la imagen sea más ancha que el papel blanco */
+    height: auto;       /* Mantiene la proporción para que no se vea estirada */
+    display: block;     /* Evita espacios extra debajo de la imagen */
+    margin: 20px auto;  /* La centra horizontalmente y le da aire arriba y abajo */
+    border-radius: 15px; /* Opcional: le da bordes redondeados como al video */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Opcional: una sombra muy suave */
+}
+#cabecera-cuento h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #ff6b6b;   /* El color coral que hemos estado usando */
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+/* style.css */
+
+#texto-cuento {
+    text-align: center; /* Centra los párrafos de texto */
+    max-width: 100%;    /* Asegura que no se salga del libro */
+    margin: 0 auto;
+}
+
+#texto-cuento p {
+    font-size: 1.4rem;  /* Tamaño ideal para niños */
+    line-height: 1.8;   /* Espaciado entre líneas para facilitar la lectura */
+    margin-bottom: 25px;/* Espacio entre párrafos */
+    color: #333;        /* Un gris muy oscuro es más suave que el negro puro */
+}   
