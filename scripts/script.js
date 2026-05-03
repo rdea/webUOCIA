@@ -108,93 +108,87 @@ const cuentos = [
         resumen: "Un dragón que prefiere las pompas al fuego.",
         portada: "./resources/img/8-10/portada_El_misterio_parque.png", 
         video: "",
-        audio: "./resources/audio/8-10/misterio_parque.mp3",
+        audio: "",
         contenido: `
-<img src="./resources/img/8-10/El_misterio_parque.png" alt="El parque silencioso" />
-<p>Juan tenía 9 años y una curiosidad que no le cabía en los bolsillos. Le gustaba hacer preguntas sobre todo: por qué vuelan los pájaros, cómo crecen las plantas y qué secretos guardan los lugares que parecen normales.</p>
+<img src="./resources/img/8-10/misterioParque1.png" alt="El parque silencioso" />
 
-<p>Una tarde, al pasar por el parque de su barrio, algo le llamó la atención. Se detuvo en seco.</p>
+<p>Lía y Bruno tenían nueve años y conocían el parque del barrio casi como si fuera su casa. Sabían qué banco crujía, dónde crecían las margaritas y en qué árbol solía cantar un mirlo muy puntual.</p>
 
-<p>—Qué raro… —murmuró—. ¿Dónde están los pájaros?</p>
+<p>Pero aquella tarde, al entrar, algo no encajaba.</p>
 
-<p>El parque, que siempre estaba lleno de trinos, hojas moviéndose y risas de niños, estaba en silencio. Demasiado silencio.</p>
+<p>El parque estaba demasiado quieto.</p>
+<img src="./resources/img/8-10/misterioParque2.png" alt="Los protagonistas mirando el parque" />
 
-<p>Al día siguiente, Juan volvió con su amiga María, que tenía su misma edad y una curiosidad igual de grande.</p>
+<p>No zumbaban abejas. No revoloteaban mariposas. No había pájaros discutiendo en las ramas, que era como Bruno llamaba a sus cantos.</p>
 
-<p>—Escucha —le dijo Juan.</p>
+<p>—Esto está más silencioso que la biblioteca cuando entra la directora —susurró Bruno.</p>
 
-<p>María frunció el ceño.</p>
+<p>Lía miró alrededor. Los árboles seguían allí, altos y verdes. Los caminos seguían igual. Pero las flores no habían abierto y la tierra parecía triste, aunque Lía pensó que quizá la tierra no se ponía triste, solo necesitaba ayuda.</p>
 
-<p>—No se oye nada… ni siquiera las fuentes.</p>
+<p>—Antes aquí había vida —dijo—. Algo ha cambiado.</p>
 
-<p>Caminaron por el parque observando todo con atención. Juan anotaba cosas en una libreta: “pocas hojas verdes”, “tierra seca”, “fuente apagada”.</p>
+<p>Bruno dio un paso decidido.</p>
 
-<p>—Mira esto —dijo María, señalando el suelo—. Está lleno de grietas.</p>
+<p>—Entonces investiguemos. Somos casi detectives.</p>
 
-<p>Juan se agachó y tocó la tierra.</p>
+<p>—¿Casi?</p>
 
-<p>—Está muy seca… como si no hubiera llovido en mucho tiempo.</p>
+<p>—Bueno, nos falta una lupa. Y quizá un sombrero ridículo.</p>
 
-<p>Siguieron investigando. Se acercaron a la fuente del centro, que estaba completamente vacía.</p>
+<p>Lía sonrió. Aunque era tímida, cuando algo le importaba, su miedo se hacía más pequeño.</p>
 
-<p>—Creo que ya tengo una idea —dijo Juan pensativo—. ¿Y si el problema es la falta de agua?</p>
+<p>Caminaron despacio. Observaron hojas, piedras y macetas. Lía encontró unas flores cerradas y Bruno descubrió un cartel doblado junto a un seto. Decía: “Tratamiento contra insectos”.</p>
 
-<p>María abrió los ojos.</p>
+<p>—¿Tratamiento? —preguntó Bruno—. Suena a jarabe para plantas.</p>
 
-<p>—¡La sequía!</p>
+<p>—O a algo más fuerte —respondió Lía.</p>
 
-<p>Ambos recordaron que hacía semanas que no llovía casi nada. Las plantas del parque estaban débiles, los árboles tenían menos hojas, y sin agua, los pájaros y otros animales habían buscado otro lugar.</p>
+<p>Entonces vieron a la señora Pino, la jardinera del parque. Estaba regando una zona pequeña, con una regadera azul y mucha paciencia.</p>
 
-<p>—Pobres… —dijo María con empatía—. Se han tenido que ir porque no pueden vivir aquí.</p>
+<p>Al principio parecía misteriosa, como si hablara con las raíces. Pero cuando Lía se acercó, la señora Pino levantó la vista y sonrió.</p>
 
-<p>Juan asintió.</p>
+<p>—Ya habéis notado el silencio, ¿verdad?</p>
 
-<p>—Pero quizá podamos hacer algo.</p>
+<p>Lía asintió.</p>
 
-<p>Pensaron juntos. No podían hacer llover, pero sí podían ayudar de otras formas.</p>
+<p>La jardinera les explicó que algunas personas del barrio habían usado demasiados pesticidas en jardines y balcones. Querían evitar insectos molestos, pero también habían espantado a los insectos útiles. Sin abejas ni mariposas, muchas flores no podían crecer bien. Y sin insectos, los pájaros se habían ido a buscar comida a otro lugar.</p>
 
-<p>Al día siguiente, hablaron con sus familias y con otros vecinos. Explicaron lo que habían descubierto.</p>
+<p>Bruno se rascó la cabeza.</p>
 
-<p>—El parque está así porque no hay suficiente agua —decía Juan—. Pero si todos ayudamos, puede mejorar.</p>
+<p>—O sea, por querer quitar un problema pequeño, hemos creado uno grande.</p>
 
-<p>María añadió:</p>
+<p>—Eso es pensar como detective —dijo la señora Pino.</p>
 
-<p>—Podemos usar el agua con más cuidado en casa y regar las plantas del parque cuando sea posible.</p>
+<p>Lía se quedó mirando el parque. Comprendió que la naturaleza funcionaba como un equipo. Si faltaba una parte, las demás lo notaban.</p>
 
-<p>Los vecinos escucharon con atención. Entre todos, decidieron organizar pequeñas acciones: recoger agua de lluvia cuando cayera, regar las plantas en las horas adecuadas para no desperdiciar agua y cuidar mejor el parque.</p>
+<p>Al día siguiente, Lía y Bruno prepararon una pequeña acción. Hicieron carteles con dibujos de abejas, pájaros y flores. También pidieron ayuda a la escuela y a la señora Pino. En la entrada del parque pusieron una mesa con semillas de plantas amigas de los insectos.</p>
 
-<p>Con el paso de los días, algo empezó a cambiar. Las plantas se veían más verdes, la tierra menos seca… y una mañana, Juan sonrió al escuchar un sonido muy especial.</p>
+<p>El cartel principal decía:</p>
 
-<p>—¡María! —gritó—. ¡Escucha!</p>
+<p><strong>“Un parque vivo necesita pequeños vecinos: insectos, flores, pájaros… y personas que piensen antes de actuar.”</strong></p>
 
-<p>Un pájaro cantaba desde una rama.</p>
+<p>Bruno repartió semillas con tanto entusiasmo que casi plantó una en el bolsillo de un señor. Lía explicó, con voz tranquila, que existían formas más respetuosas de cuidar las plantas.</p>
 
-<p>María sonrió.</p>
+<p>Poco a poco, el barrio escuchó.</p>
 
-<p>—Están volviendo.</p>
+<p>Pasaron las semanas. Primero volvió una abeja. Luego dos mariposas. Una mañana, el mirlo puntual cantó desde su árbol favorito.</p>
 
-<p>El parque ya no estaba completamente silencioso. Poco a poco, la vida regresaba.</p>
+<p>Bruno levantó los brazos.</p>
 
-<p>Juan cerró su libreta y dijo:</p>
+<p>—¡Caso cerrado!</p>
 
-<p>—A veces, los misterios no son tan complicados. Solo hay que observar, pensar y trabajar juntos.</p>
+<p>Lía sonrió.</p>
 
-<p>María añadió:</p>
+<p>—Más bien, caso cuidado.</p>
 
-<p>—Y cuidar lo que tenemos, porque todo está conectado.</p>
-
-<p>Desde entonces, el parque no solo fue un lugar para jugar, sino también un recordatorio de algo importante: cuando cuidamos la naturaleza, también nos cuidamos a nosotros mismos.</p>
-
-<h2>Enseñanza</h2>
-
-<p>Este misterio les enseñó a Juan y a María que observar con atención, pensar de forma crítica y actuar con empatía puede ayudar a resolver problemas, y que entre todos podemos cuidar el planeta con pequeños gestos.</p>
+<p>Y entendieron que cuidar la naturaleza no era hacer grandes discursos, sino tomar buenas decisiones, aunque fueran pequeñas. Porque un parque no solo necesita árboles: necesita atención, respeto y personas dispuestas a escuchar su silencio.</p>
 
 <h2>Preguntas para reflexionar</h2>
-
-<ol>
-  <li>¿Qué pistas ayudaron a Juan y María a descubrir el problema del parque?</li>
-  <li>¿Qué cosas puedes hacer tú para cuidar el agua y la naturaleza en tu entorno?</li>
-</ol>`
+<ul>
+  <li>¿Por qué Lía y Bruno decidieron investigar antes de sacar conclusiones?</li>
+  <li>¿Qué pequeñas acciones podrían ayudar a cuidar un parque cercano?</li>
+  <li>¿Por qué los insectos también son importantes para la naturaleza?</li>
+</ul>`
     },{
         id: 3,
         titulo: "El guardián de los recuerdos olvidados",
@@ -492,31 +486,187 @@ const cuentos = [
 </ol>`
     },{
         id: 6,
-        titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
+        titulo: "El pequeño dragón que no sabía rugir",
+        categorias: ["Fantasia", "aventura","6-8 años"],
+        resumen: "el dragón pequeño que no sabía rugir, pero descubrió que su forma de ayudar era diferente y valiosa a su manera.",
+        portada: "./resources/img/6-8/portada_dragon.png", // Imagen de ejemplo
         video: "",
         audio: "",
-        contenido: ``
+        contenido: `
+
+<p>En un valle verde y luminoso vivían muchos dragones. Todos rugían muy fuerte para demostrar que eran valientes.</p>
+
+<p>Todos menos Lino, un dragón pequeño, redondito y curioso.</p>
+
+<p>Cuando Lino intentaba rugir, no salía un “¡ROOOAR!”. Salía un susurro, un soplito de humo o un sonido parecido a “puf”.</p>
+
+<p>Los otros dragones se reían con suavidad.</p>
+
+<p>—Ha sonado como una tetera dormida —dijo uno.</p>
+
+<p>Lino sonrió un poco, pero por dentro se sintió pequeño.</p>
+
+<p>Aquel día se celebraba el gran concurso de rugidos del valle. Todos practicaban. Las montañas temblaban un poquito.</p>
+
+<p>Lino decidió esconderse detrás de unos helechos.</p>
+
+        <img src="./resources/img/6-8/dragon1.png" alt="Lino se esconde" />
+<p>—No tengo nada especial —pensó—. Si no sé rugir, no puedo ser valiente.</p>
+
+<p>Entonces oyó una vocecita.</p>
+
+<p>—¿Hola? ¿Puede ayudarme alguien?</p>
+
+<p>Era Nara, una ardilla del bosque. Tenía una cesta de semillas atrapada en una grieta, junto a una pequeña llama que había encendido una ramita seca.</p>
+
+<p>Los dragones grandes seguían rugiendo en el concurso. Nadie la oía.</p>
+
+<p>Lino sintió miedo de equivocarse. Pero también vio que Nara lo miraba con confianza.</p>
+
+<p>—Puedo intentarlo —dijo con su voz suave.</p>
+
+<p>Se acercó despacio. No rugió. Tomó aire y sopló con mucho cuidado.</p>
+        <img src="./resources/img/6-8/dragon2.png" alt="Lino soplando" />
+
+<p>Su brisa apagó la llamita sin mover la cesta. Después sopló otra vez, muy suave, y las semillas rodaron fuera de la grieta.</p>
+
+<p>—¡Lo has conseguido! —dijo Nara—. Tu aliento es pequeño, pero muy preciso.</p>
+
+<p>Los dragones dejaron de rugir y miraron sorprendidos. Lino no había ganado el concurso, pero había hecho algo importante.</p>
+
+<p>Lino pensó en silencio. Quizá la valentía no siempre hacía ruido. A veces era una voz tranquila diciendo: “Voy a intentarlo”.</p>
+
+<p>Desde aquel día, Lino ya no quiso rugir como los demás. Quiso aprender a ser Lino.</p>
+
+<p>Nara caminó a su lado y le regaló una semilla brillante.</p>
+
+<p>—Para que recuerdes tu brisa valiente —dijo.</p>
+
+<h2>Moraleja</h2>
+<p><strong>Ser diferente no significa ser menos: a veces tu forma de ser es justo lo que alguien necesita.</strong></p>
+
+<h2>Preguntas de comprensión</h2>
+<ol>
+  <li>¿Por qué Lino se escondió antes del concurso?</li>
+  <li>¿Cómo ayudó Lino a Nara?</li>
+  <li>¿Qué aprendió Lino al final del cuento?</li>
+</ol>`
     },{
         id: 7,
-        titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
+        titulo: "La mochila mágica de Leo",
+        categorias: ["Fantasia", "aventura","6-8 años"],
+        resumen: "Leo descubre una mochila mágica que lo ayuda a cuidar el parque y a aprender el valor de la colaboración.",
+        portada: "./resources/img/6-8/portada_mochila.png", // Imagen de ejemplo
         video: "",
         audio: "",
-        contenido: ``
+        contenido: `
+                <img src="./resources/img/6-8/mochila1.png" alt="Leo descubre la mochila" />
+
+<p>Leo vivía cerca de un parque pequeño, con bancos azules, árboles altos y un columpio que chirriaba un poco.</p>
+
+<p>Cada tarde iba allí con sus amigos: Maya, Sami y Noa.</p>
+
+<p>Un día encontraron el parque lleno de papeles, hojas secas y flores marchitas.</p>
+
+<p>—Parece cansado —dijo Leo.</p>
+
+<p>Entonces su mochila empezó a brillar suavemente.</p>
+
+<p>—¿Eh? —susurró Leo.</p>
+
+<p>La mochila se abrió sola y sacó cuatro pares de guantes.</p>
+
+<p>También apareció una nota:</p>
+
+<p><em>“Primer paso: cuidar sin ensuciarse las manos.”</em></p>
+
+<p>Leo sonrió. Cada amigo tomó unos guantes. Recogieron papeles, separaron botellas y dejaron las hojas secas en un montón para hacer compost.</p>
+
+<p>Después, la mochila sacó una bolsita de semillas.</p>
+
+<p>—¿Y ahora? —preguntó Noa.</p>
+
+<p>Otra nota salió volando.</p>
+
+<p><em>“Donde falta color, plantad con amor.”</em></p>
+
+<p>Maya encontró un rincón vacío junto al camino. Sami hizo agujeritos en la tierra. Noa colocó las semillas. Leo las cubrió con cuidado.</p>
+
+<p>Pero faltaba agua.</p>
+
+<p>La mochila sacó una regadera pequeña. Era tan pequeña que todos se rieron.</p>
+
+<p>—Con esto tardaremos mil años —dijo Sami.</p>
+
+<p>Leo pensó un momento.</p>
+
+<p>—No si hacemos turnos.</p>
+
+<p>Fueron a la fuente, llenaron la regadera muchas veces y regaron juntos. Hasta un niño que pasaba se unió al grupo.</p>
+
+<p>Al final, el parque parecía respirar mejor.</p>
+
+<p>La mochila volvió a brillar y sacó una última nota:</p>
+
+<p><em>“La magia ayuda, pero el cambio lo hacen las manos amigas.”</em></p>
+
+<p>Leo miró a sus amigos. La mochila era especial, sí. Pero lo más mágico había sido escucharse, ayudarse y cuidar el parque entre todos.</p>
+
+<p>Desde ese día, cada viernes volvieron con guantes, semillas y ganas de cuidar su barrio.</p>
+
+<h2>Preguntas de comprensión</h2>
+<ol>
+  <li>¿Qué problema encontraron Leo y sus amigos en el parque?</li>
+  <li>¿Qué objetos sacó la mochila mágica?</li>
+  <li>¿Por qué la solución final dependió del trabajo en equipo?</li>
+</ol>`
     },{
         id: 8,
-        titulo: "El guardián de los recuerdos olvidados",
+        titulo: "El pez que tenía miedo al agua",
         categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
+        resumen: "En el fondo del mar, Nilo, un pez pequeño, tenía miedo de nadar lejos de su roca. Pero cuando una estrella de mar le pidió ayuda para recuperar su concha, Nilo descubrió que podía ser valiente a su manera y que el mar no era tan grande como parecía.",
+        portada: "./resources/img/6-8/portada_pez.png", // Imagen de ejemplo
         video: "",
         audio: "",
-        contenido: ``
+        contenido: `<h1></h1>
+        <img src="./resources/img/6-8/pez1.png" alt="Nilo nadando" />
+
+<p>En el fondo del mar vivía Nilo, un pez pequeño de escamas azules y ojos curiosos.</p>
+
+<p>Nilo siempre estaba pegado a una roca redonda. Desde allí miraba las algas bailar y a los demás peces nadar de un lado a otro.</p>
+
+<p>—El agua es demasiado grande —pensaba—. Mejor me quedo aquí.</p>
+
+<p>Un día, una estrella de mar llamada Lúa llegó despacito.</p>
+
+<p>—Nilo, ¿puedes ayudarme? La corriente se llevó mi concha favorita.</p>
+
+<p>La concha estaba un poco lejos, junto a unas algas suaves.</p>
+
+<p>Nilo tragó saliva. El agua parecía enorme. Pero Lúa lo miraba con esperanza.</p>
+
+<p>—Puedo intentarlo —dijo Nilo en voz bajita.</p>
+
+<p>Primero movió una aleta. Luego la otra. Se separó de la roca solo un poquito.</p>
+
+<p>El agua lo empujó suavemente, como si le dijera: “Sigue”.</p>
+
+<p>Nilo avanzó despacio. Vio burbujas, piedrecitas brillantes y un caballito de mar que saludó con la cola.</p>
+
+<p>—No todo es peligroso —pensó.</p>
+
+<p>Cuando llegó a la concha, la corriente quiso moverla otra vez. Nilo respiró hondo y nadó con cuidado, empujándola poco a poco hasta Lúa.</p>
+
+<p>—¡Gracias! —dijo la estrella de mar—. Has sido muy valiente.</p>
+
+<p>Nilo miró el agua que lo rodeaba. Seguía siendo grande, sí. Pero también era bonita. Y en ella podía moverse, ayudar y descubrir cosas nuevas.</p>
+
+<p>Desde aquel día, Nilo volvió a su roca muchas veces. Pero ya no se quedó siempre pegado a ella.</p>
+
+<p>A veces nadaba cerca. A veces un poco más lejos. Y cada día el mar parecía menos enorme y más suyo.</p>
+
+<h2>Moraleja</h2>
+<p><strong>Crecer empieza cuando nos atrevemos a dar un pequeño paso fuera de nuestro lugar seguro.</strong></p>`
     },{
         id: 9,
         titulo: "El guardián de los recuerdos olvidados",
