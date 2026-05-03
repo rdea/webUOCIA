@@ -398,11 +398,12 @@ const cuentos = [
         id: 5,
         titulo: "La brújula que siempre señalaba al corazón",
         categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
+        resumen: "La brujula que no señalaba el norte, sino lo que realmente importaba: la empatía, la colaboración y el pensamiento crítico para cuidar a los demás y al mundo.",
+        portada: "./resources/img/10-12/portada_brujula.png", // Imagen de ejemplo
         video: "",
         audio: "",
-        contenido: `<p>Lina tenía nueve años y una mochila llena de curiosidad. Le gustaba observar hormigas, recoger hojas caídas para clasificarlas y preguntar por qué las cosas eran como eran.</p>
+        contenido: `        <img src="./resources/img/10-12/brujula1.png" alt="La brújula" />
+<p>Lina tenía nueve años y una mochila llena de curiosidad. Le gustaba observar hormigas, recoger hojas caídas para clasificarlas y preguntar por qué las cosas eran como eran.</p>
 
 <p>Una tarde, mientras ayudaba a ordenar el pequeño almacén de la escuela, encontró una caja de madera bajo unas telas viejas. Dentro había una brújula dorada, algo rayada, con una inscripción diminuta:</p>
 
