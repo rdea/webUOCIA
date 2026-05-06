@@ -744,13 +744,71 @@ const cuentos = [
 </ol>`
     },{
         id: 10,
-        titulo: "El guardián de los recuerdos olvidados",
+        titulo: "La tortuga que quería correr",
         categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
-        video: "",
+        resumen: "Tula, una tortuga pequeña y curiosa, quería correr como las ardillas del prado. Pero cuando se perdió una cría de erizo, Tula descubrió que su forma de avanzar era valiosa a su manera y que no necesitaba ser rápida para ayudar a los demás.",
+        portada: "./resources/img/6-8/portada_tortuga.png", // Imagen de ejemplo
+        video: "./resources/video/latortuga.mp4", // Video de ejemplo
         audio: "",
-        contenido: ``
+        contenido: `
+        <img src="./resources/img/6-8/tortuga.png" alt="La tortuga" />
+<p>En un prado verde y tranquilo vivía Tula, una tortuga pequeña y muy curiosa.</p>
+
+<p>A Tula le encantaba observar a las ardillas. Subían y bajaban de los árboles con una rapidez sorprendente.</p>
+
+<p>—Ojalá pudiera moverme así —decía.</p>
+
+<p>Un día decidió entrenar para la gran carrera del prado.</p>
+
+<p>Estiró sus patas, respiró hondo y empezó a avanzar lo más rápido que pudo.</p>
+
+<p>Pero avanzaba… despacio.</p>
+
+<p>Las ardillas corrían de rama en rama. Otros animales pasaban ligeros.</p>
+
+<p>Tula se detuvo.</p>
+
+<p>—Mi cuerpo va a otro ritmo —pensó.</p>
+
+<p>En ese momento, se oyó un pequeño sonido entre la hierba alta.</p>
+
+<p>—¿Hola? ¿Alguien puede ayudarme?</p>
+
+<p>Era una cría de erizo que se había perdido.</p>
+
+<p>Los animales rápidos pasaron cerca, pero no se fijaron. Iban demasiado deprisa.</p>
+
+<p>Tula se acercó con calma.</p>
+
+<p>—Estoy aquí —dijo con voz suave.</p>
+
+<p>Avanzó paso a paso, observando con atención. Miró las hojas, el suelo y los pequeños caminos ocultos.</p>
+
+<p>—Creo que este es el camino —dijo al cabo de un rato.</p>
+
+<p>Había encontrado un sendero seguro entre la hierba.</p>
+
+<p>El erizo la siguió despacito hasta llegar a casa.</p>
+
+<p>—Gracias —dijo sonriendo—. Tú sí miraste con cuidado.</p>
+
+<p>Tula se sintió contenta.</p>
+
+<p>No había corrido rápido. Pero había hecho algo importante.</p>
+
+<p>Entonces entendió que no necesitaba ser como las ardillas para ser valiosa.</p>
+
+<p>Desde ese día, siguió avanzando a su ritmo, observando el prado y ayudando a quien lo necesitaba.</p>
+
+<h2>Moraleja</h2>
+<p><strong>No hace falta ser rápido para ser importante: cada forma de avanzar tiene su valor.</strong></p>
+
+<h2>Preguntas de comprensión</h2>
+<ol>
+  <li>¿Qué animal observaba Tula al principio del cuento?</li>
+  <li>¿Por qué los animales rápidos no ayudaron al erizo?</li>
+  <li>¿Qué aprendió Tula al final?</li>
+</ol>`
     },{
         id: 11,
         titulo: "El guardián de los recuerdos olvidados",
