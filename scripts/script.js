@@ -2,7 +2,7 @@ const cuentos = [
    {
         id: 0,
         titulo: "La nube que perdió su forma",
-        categorias: ["6-8 años","Aventuras"],
+        categorias: ["6-8 años","Aventura"],
         resumen: "La nube pequeña que se asustó al cambiar de forma, pero descubrió que su valor no dependía de cómo se viera.",
         portada: "./resources/img/6-8/portadanube.png", // Imagen de ejemplo
         audio: "", // URL de ejemplo
@@ -309,7 +309,7 @@ const cuentos = [
     },{
         id: 4,
         titulo: "La ciudad donde el tiempo se rompió",
-        categorias: ["Fantasia", "aventura","10-12 años"],
+        categorias: ["Fantasia", "Aventura","10-12 años"],
         resumen: "La ciudad caminaba raro, no era una rareza facil de explicarEn una ciudad donde los relojes se descontrolan y las personas viven con prisa sin darse cuenta, Vera descubre un lugar secreto que guarda los minutos olvidados",
         portada: "./resources/img/10-12/portada_ciudad.png", // Imagen de ejemplo
         video: "",
@@ -670,13 +670,78 @@ const cuentos = [
 <p><strong>Crecer empieza cuando nos atrevemos a dar un pequeño paso fuera de nuestro lugar seguro.</strong></p>`
     },{
         id: 9,
-        titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
+        titulo: "El día que el viento se escondió",
+        categorias: ["Fantasia", "Aventura","6-8 años"],
+        resumen: "Bruno, un niño curioso, descubre que el viento se ha escondido porque se siente incómodo. A través de la observación y el cuidado del entorno, Bruno aprende a escuchar y a cuidar para que el viento vuelva a sentirse bien.",
+        portada: "./resources/img/6-8/portada_viento.png", // Imagen de ejemplo
         video: "",
         audio: "",
-        contenido: ``
+        contenido: `<img src="./resources/img/6-8/viento.png" alt="El viento escondido" />
+<p>Una mañana, todo estaba en silencio.</p>
+
+<p>Ni una hoja se movía. Ni una nube corría. El viento había desaparecido.</p>
+
+<p>Bruno, un niño curioso y tranquilo, lo notó enseguida.</p>
+
+<p>—¿Dónde estará el viento? —se preguntó.</p>
+
+<p>Decidió salir a buscarlo, pero sin correr. Quería observar bien.</p>
+
+<p>Primero entró en el bosque. Los árboles estaban quietos, como si guardaran un secreto.</p>
+
+<p>Bruno se sentó un momento y escuchó.</p>
+
+<p>—Sin viento no puedo bailar —susurró una hoja.</p>
+
+<p>Bruno miró con atención. Había ramas rotas y cosas olvidadas en el suelo.</p>
+
+<p>No dijo nada. Solo pensó.</p>
+
+<p>Después subió a la colina. Los molinos estaban parados.</p>
+
+<p>Bruno apoyó la mano en uno de ellos.</p>
+
+<p>—Sin viento no podemos girar —dijo con un crujido suave.</p>
+
+<p>Bruno observó el lugar. Todo parecía un poco descuidado.</p>
+
+<p>Por último llegó a un campo de flores. Los pájaros estaban confundidos.</p>
+
+<p>—No sabemos hacia dónde volar —dijo uno.</p>
+
+<p>Bruno respiró hondo y se sentó entre las flores.</p>
+
+<p>—Quizá el viento no se perdió —pensó—. Quizá se sintió incómodo.</p>
+
+<p>Se quedó en silencio un rato más, sintiendo el lugar.</p>
+
+<p>Entonces habló en voz suave, como si el viento pudiera oírle.</p>
+
+<p>—Puedes volver cuando quieras. Vamos a cuidar mejor este lugar.</p>
+
+<p>Bruno empezó a recoger una pequeña bolsa de papel que tenía cerca. Sin prisa. Con cuidado.</p>
+
+<p>Al verlo, un pájaro bajó y movió una hoja. Otro niño que pasaba también ayudó un poco.</p>
+
+<p>Poco a poco, el lugar se volvió más tranquilo.</p>
+
+<p>De pronto, una brisa suave rozó las flores.</p>
+
+<p>Las hojas comenzaron a moverse despacito. Los molinos giraron muy lento, como saludando.</p>
+
+<p>Bruno sonrió.</p>
+
+<p>Había entendido algo importante: a veces, para que algo vuelva, primero hay que escuchar y cuidar.</p>
+
+<h2>Moraleja</h2>
+<p><strong>Escuchar y cuidar con atención puede cambiar las cosas más que hacer mucho ruido.</strong></p>
+
+<h2>Preguntas de comprensión</h2>
+<ol>
+  <li>¿Qué hizo Bruno diferente al buscar al viento?</li>
+  <li>¿Qué descubrió Bruno al observar y escuchar?</li>
+  <li>¿Cómo volvió el viento al final del cuento?</li>
+</ol>`
     },{
         id: 10,
         titulo: "El guardián de los recuerdos olvidados",
