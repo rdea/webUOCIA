@@ -910,7 +910,7 @@ const cuentos = [
         resumen: "la bicicleta Brisa, que siempre quería ir rápido, aprende a esperar a sus amigos más lentos durante un paseo por el parque. A través de esta experiencia, Brisa descubre que la amistad también se construye con paciencia y cuidado hacia los demás.",
         portada: "./resources/img/6-8/portada_bicicleta.png", // Imagen de ejemplo
         video: "",
-        audio: "",
+        audio: "./resources/audio/6-8/la_bici.mp3", // Audio de ejemplo
         contenido: `                <img src="./resources/img/6-8/portada_bicicleta.png" alt="Brisa la bicicleta" />
 
 <p>En un parque lleno de árboles y caminos suaves vivía Brisa, una bicicleta pequeña de color roja carmín.</p>
