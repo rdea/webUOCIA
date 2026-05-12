@@ -811,22 +811,175 @@ const cuentos = [
 </ol>`
     },{
         id: 11,
-        titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
+        titulo: "El bosque que susurraba secretos",
+        categorias: ["Fantasia", "Aventura","6-8 años"],
+        resumen: "el bosque lleno de sonidos misteriosos que solo una ardilla llamada Lia podía escuchar. A través de su curiosidad y cuidado, Lia descubre que el bosque le estaba pidiendo ayuda para recuperar un arroyo bloqueado, y con la colaboración de otros animales, logra devolverle la voz al bosque.",
+        portada: "./resources/img/6-8/portada_susurro.png", // Imagen de ejemplo
         video: "",
         audio: "",
-        contenido: ``
+        contenido: `
+                <img src="./resources/img/6-8/portada_susurro.png" alt="el bosque susurra a la ardilla" />
+
+<p>En un bosque lleno de helechos y árboles altos vivía Lia, una pequeña ardilla de cola esponjosa y ojos muy curiosos.</p>
+
+<p>A Lia le encantaba escuchar los sonidos del bosque: el canto de los pájaros, las ramas al crujir y el viento jugando entre las hojas.</p>
+
+<p>Pero una tarde, todo sonó diferente.</p>
+
+<p>El bosque estaba demasiado silencioso.</p>
+
+<p>Entonces oyó un susurro suave.</p>
+
+<p>—Shhh… shhh…</p>
+
+<p>Lia se quedó quieta.</p>
+
+<p>Miró alrededor, pero no vio a nadie.</p>
+
+<p>El sonido volvió a escucharse entre los árboles.</p>
+
+<p>—Shhh… por aquí…</p>
+
+<p>Un pequeño escalofrío de misterio le recorrió la cola.</p>
+
+<p>El bosque nunca había sonado así.</p>
+
+<p>Lia dudó un momento, pero decidió averiguar qué ocurría.</p>
+
+<p>No llamó a nadie. Primero quería entender el secreto por sí misma.</p>
+
+<p>Avanzó despacio entre las hojas. Escuchaba con mucha atención. A veces el sonido parecía venir de una rama. Otras veces, de detrás de unas piedras cubiertas de musgo.</p>
+
+<p>Cuanto más caminaba, más extraño parecía el bosque.</p>
+
+<p>Las hojas casi no se movían. Los pájaros estaban callados.</p>
+
+<p>Entonces el susurro se hizo más claro.</p>
+
+<p>—Shhh… aquí…</p>
+
+<p>Lia apartó unos helechos y abrió mucho los ojos.</p>
+                <img src="./resources/img/6-8/susurro1.png" alt="el arroyo oculto" />
+
+<p>¡Un pequeño arroyo estaba casi desaparecido bajo ramas y hojas secas!</p>
+
+<p>El agua apenas podía pasar.</p>
+
+<p>Las flores cercanas estaban inclinadas y varios insectos caminaban alrededor buscando agua.</p>
+
+<p>Lia sintió una mezcla de sorpresa y tristeza.</p>
+
+<p>—Ahora lo entiendo —susurró.</p>
+
+<p>El bosque no hablaba con palabras. Pedía ayuda con pequeños sonidos y cambios silenciosos.</p>
+                <img src="./resources/img/6-8/susurro2.png" alt="el arroyo recuperandose" />
+
+<p>Lia empezó a mover ramitas y hojas con cuidado. Intentó despejar el agua ella sola durante un rato.</p>
+
+<p>Pero algunas ramas eran demasiado grandes.</p>
+
+<p>Entonces llamó a otros animales del bosque.</p>
+                <img src="./resources/img/6-8/susurro3.png" alt="el arroyo con otros animales" />
+
+<p>Un erizo apartó hojas. Dos ratones movieron piedras pequeñas. Un petirrojo llevó ramas lejos del agua.</p>
+
+<p>Poco a poco, el arroyo volvió a correr.</p>
+
+<p>El agua brilló bajo la luz y el bosque volvió a llenarse de sonidos suaves.</p>
+                <img src="./resources/img/6-8/susurro4.png" alt="el arroyo recuperado" />
+
+<p>Las hojas susurraron otra vez.</p>
+
+<p>Pero esta vez, Lia entendió perfectamente lo que decían.</p>
+
+<p>—Gracias.</p>
+
+<h2>Moraleja</h2>
+<p><strong>Cuando escuchamos con calma y atención, podemos descubrir cómo ayudar de verdad.</strong></p>
+
+<h2>Preguntas de comprensión</h2>
+<ol>
+  <li>¿Qué hizo que Lia pensara que algo extraño ocurría en el bosque?</li>
+  <li>¿Qué descubrió Lia detrás de los helechos?</li>
+  <li>¿Cómo ayudaron los animales a que el arroyo volviera a correr?</li>
+</ol>`
     },{
         id: 12,
-        titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
+        titulo: "La bicicleta que aprendió a esperar",
+        categorias: ["aventura","6-8 años"],
+        resumen: "la bicicleta Brisa, que siempre quería ir rápido, aprende a esperar a sus amigos más lentos durante un paseo por el parque. A través de esta experiencia, Brisa descubre que la amistad también se construye con paciencia y cuidado hacia los demás.",
+        portada: "./resources/img/6-8/portada_bicicleta.png", // Imagen de ejemplo
         video: "",
         audio: "",
-        contenido: ``
+        contenido: `                <img src="./resources/img/6-8/portada_bicicleta.png" alt="Brisa la bicicleta" />
+
+<p>En un parque lleno de árboles y caminos suaves vivía Brisa, una bicicleta pequeña de color roja carmín.</p>
+
+<p>Brisa era alegre, rápida y muy enérgica.</p>
+
+<p>Le encantaba correr cuesta abajo y adelantar a todos.</p>
+
+<p>Una mañana salió de paseo con otros amigos sobre ruedas: una familia de triciclos, un monociclo divertido, un patinete tranquilo y un hoverboard lleno de pegatinas brillantes.</p>
+<img src="./resources/img/6-8/bicicleta1.png" alt="Grupo sobre ruedas" />
+<p>El hoverboard se llamaba Turbo.</p>
+
+<p>Tenía luces de colores, ruedas luminosas y un aire un poco gamberro.</p>
+
+<p>—¿Te echo una carrera? —preguntó girando rápido sobre sí mismo.</p>
+
+<p>Los ojos de Brisa brillaron.</p>
+
+<p>—¡Claro!</p>
+
+<p>Y los dos salieron disparados por el parque.</p>
+<img src="./resources/img/6-8/bicicleta2.png" alt="Brisa y turbo corren" />
+<p>Pasaron junto a flores, árboles y bancos azules. Turbo iba haciendo giros rápidos y Brisa pedaleaba cada vez más deprisa.</p>
+
+<p>Pero al llegar a una curva, Brisa miró atrás.</p>
+
+<p>El grupo había quedado muy lejos.</p>
+
+<p>Y el pequeño patinete avanzaba despacito intentando seguirlos.</p>
+
+<p>Turbo quiso continuar.</p>
+
+<p>—¡Vamos! ¡Podemos llegar antes que nadie!</p>
+
+<p>Pero Brisa recordó algo importante.</p>
+
+<p>Si seguía corriendo, alguien volvería a quedarse atrás.</p>
+
+<p>Entonces frenó suavemente.</p>
+
+<p>Turbo la miró sorprendido.</p>
+
+<p>—¿No quieres ganar?</p>
+
+<p>Brisa sonrió.</p>
+
+<p>—Prefiero que lleguemos juntos.</p>
+<img src="./resources/img/6-8/bicicleta3.png" alt="mirando al patinete" />
+<p>Se acercó al patinete y avanzó a su lado.</p>
+
+<p>—Vamos a tu ritmo —dijo.</p>
+
+<p>El patinete sonrió agradecido.</p>
+
+<p>Poco después, Turbo también redujo la velocidad y empezó a acompañarlos haciendo pequeños giros tranquilos.</p>
+
+<p>El paseo siguió entre risas, ruedas y hojas moviéndose con el viento.</p>
+<img src="./resources/img/6-8/bicicleta4.png" alt="caminan juntos" />
+<p>Y Brisa descubrió que a veces el mejor camino no es el más rápido, sino el que se comparte con los demás.</p>
+
+<h2>Moraleja</h2>
+<p><strong>Esperar a quien va más despacio también es una forma de amistad.</strong></p>
+
+<h2>Preguntas de comprensión</h2>
+<ol>
+  <li>¿Quién quería hacer una carrera con Brisa?</li>
+  <li>¿Por qué Brisa decidió frenar?</li>
+  <li>¿Qué aprendió Brisa al final del paseo?</li>
+</ol>`
     },{
         id: 13,
         titulo: "El guardián de los recuerdos olvidados",
