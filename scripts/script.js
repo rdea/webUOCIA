@@ -982,49 +982,186 @@ const cuentos = [
 </ol>`
     },{
         id: 13,
-        titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
+        titulo: "El club de los exploradores invisibles",
+        categorias: ["Aventura","8-10 años"],
+        resumen: "un equipo de amigos llamado el Club de los Exploradores Invisibles descubre que alguien está dejando basura en el bosque del parque. En lugar de culpar o señalar, deciden investigar con cuidado, entender la situación y organizar una recogida de residuos para mejorar el lugar juntos, demostrando empatía, pensamiento crítico y trabajo en equipo.",
+        portada: "./resources/img/8-10/portada_exploradores.png", // Imagen de ejemplo
         video: "",
         audio: "",
-        contenido: ``
+        contenido: `
+<img src="./resources/img/8-10/portada_exploradores.png" alt="Club de los Exploradores Invisibles" />
+
+<p>Cada tarde, cuando terminaban los deberes, Leo, Inés, Marta y Karim se reunían en el pequeño parque del barrio de Las Encinas. Allí tenían su lugar secreto: una vieja caseta de madera junto a unos arbustos altos. Sobre la puerta habían colgado un cartel hecho con cartón que decía:</p>
+
+<p><strong>“Club de los Exploradores Invisibles”.</strong></p>
+
+<p>El nombre lo habían elegido porque les encantaban las misiones discretas, las búsquedas de pistas y resolver pequeños misterios sin molestar a nadie.</p>
+
+<p>El parque tenía una zona de columpios, un estanque pequeño y, al fondo, un caminito que llevaba a un bosquecillo de pinos. No era un bosque enorme, pero para ellos parecía un territorio lleno de aventuras.</p>
+
+<p>Una tarde, mientras recogían hojas curiosas para su cuaderno de exploradores, Inés se agachó de golpe.</p>
+
+<p>—Mirad esto… —dijo señalando el suelo.</p>
+
+<p>Entre los árboles había latas, bolsas vacías y papeles arrugados.</p>
+
+<p>—Ayer no estaba así —comentó Karim.</p>
+
+<p>Leo observó el bosque con preocupación.</p>
+
+<p>—Alguien está dejando basura aquí.</p>
+
+<p>Marta cruzó los brazos como una auténtica detective.</p>
+
+<p>—Entonces tenemos una misión.</p>
+
+<p>Durante varios días investigaron con cuidado. Llevaban una libreta para anotar pistas, unos prismáticos de juguete y bocadillos “de emergencia”, porque toda misión importante necesitaba bocadillos.</p>
+
+<p>Se escondían cerca del camino y observaban sin hacer ruido. Querían entender qué estaba pasando antes de sacar conclusiones.</p>
+
+<p>—Pensar bien también forma parte de explorar —decía siempre Inés.</p>
+
+<p>El jueves por la tarde ocurrió algo importante. Desde detrás de unos arbustos vieron a un hombre mayor acercarse lentamente con una bolsa negra. Miró alrededor y dejó varias cajas junto a un árbol antes de marcharse.</p>
+
+<p>—¡Es él! —susurró Leo.</p>
+
+<p>Pero Marta levantó una mano para pedir calma.</p>
+
+<p>—Esperad… primero tenemos que entender por qué lo hace.</p>
+
+<p>Al día siguiente volvieron a reunirse en la caseta del club. Esta vez no hablaban tan emocionados como otras veces.</p>
+
+<p>Karim apoyó la libreta sobre la mesa.</p>
+
+<p>—Yo creo que deberíamos avisar a un adulto.</p>
+
+<p>—¿Y si don Julián se enfada? —preguntó Inés en voz baja.</p>
+
+<p>Todos guardaron silencio unos segundos. A través de la ventana se veía el bosque moviéndose con el viento.</p>
+<img src="./resources/img/8-10/exploradores1.png" alt="Observan a Julian tirar basura" />
+
+<p>Leo pensó en las veces que el vecino les había saludado desde su balcón.</p>
+
+<p>—Nunca parece una persona mala —dijo finalmente—. Quizá no sabe el daño que está causando.</p>
+
+<p>Marta asintió despacio.</p>
+
+<p>—Si nosotros también nos equivocamos alguna vez, lo justo es darle la oportunidad de explicarse.</p>
+
+<p>Aquella pausa les ayudó a decidir con calma. El club no quería señalar ni humillar a nadie. Querían mejorar el parque.</p>
+
+<p>Esa misma tarde fueron juntos al edificio amarillo donde vivía don Julián. Cuando abrió la puerta, los miró sorprendido.</p>
+
+<p>—Buenas tardes, exploradores —dijo sonriendo—. ¿Qué os trae por aquí?</p>
+
+<p>Los cuatro se miraron hasta que Leo habló con valentía.</p>
+
+<p>—Creemos que quizá no sabe que las bolsas que deja en el bosque están ensuciando el parque.</p>
+
+<p>Don Julián abrió mucho los ojos.</p>
+
+<p>—¿Ensuciando? Yo pensé que los trabajadores las recogían después. Antes había unos contenedores junto al camino.</p>
+
+<p>Entonces entendieron lo que había ocurrido: los contenedores habían sido cambiados de sitio hacía semanas y él no lo sabía.</p>
+
+<p>—Ahora están junto a la pista de baloncesto —explicó Marta.</p>
+
+<p>El hombre suspiró preocupado.</p>
+
+<p>—Vaya… no quería causar problemas.</p>
+
+<p>Karim sonrió.</p>
+
+<p>—Todavía podemos arreglarlo.</p>
+
+<p>Entre todos organizaron una recogida de residuos para el sábado siguiente. Participaron vecinos, familias y hasta algunos niños pequeños con guantes enormes que les quedaban grandes.</p>
+
+<p>Mientras unos recogían basura, otros separaban plásticos y papeles para reciclar. Don Julián llevó limonada casera para todos y ayudó a plantar flores junto al camino.</p>
+
+<p>Al terminar, el bosquecillo volvió a verse limpio y cuidado.</p>
+
+<p>Los miembros del Club de los Exploradores Invisibles observaron orgullosos el parque. Habían resuelto el misterio sin discutir ni culpar a nadie, usando la empatía, el pensamiento crítico y el trabajo en equipo.</p>
+
+<p>Y antes de marcharse, Inés escribió en la libreta del club:</p>
+
+<p><em>“A veces, para solucionar un problema, primero hay que escuchar y comprender.”</em></p>
+
+<h2>Preguntas para reflexionar</h2>
+
+<ol>
+  <li>¿Por qué fue importante que los niños hablaran antes de tomar una decisión?</li>
+  <li>¿Qué habrías hecho tú si descubrieras un problema parecido en tu barrio?</li>
+  <li>¿Cómo ayudaron los vecinos a mejorar el parque juntos?</li>
+</ol>
+
+`
     },{
         id: 14,
-        titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
+        titulo: "La isla donde los árboles caminaban",
+        categorias: ["Fantasia", "Aventura","8-10 años"],
+        resumen: "un arbol llamado el Árbol Mayor comenzó a caminar por la isla de Bruma Clara, causando que los caminos desaparecieran y los pájaros perdieran sus nidos. Nora, Tomás y Lía, tres niños curiosos, descubren que el problema se debe a una piedra luminosa atrapada entre las raíces del Árbol Mayor. Con la ayuda de los habitantes de la isla, logran liberar la piedra y devolver el equilibrio al bosque, aprendiendo la importancia de escuchar y cuidar la naturaleza.",
+        portada: "./resources/img/8-10/portada_arbol.png", // Imagen de ejemplo
         video: "",
         audio: "",
-        contenido: ``
-    },{
-        id: 15,
-        titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
-        video: "",
-        audio: "",
-        contenido: ``
-    },{
-        id: 16,
-        titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
-        video: "",
-        audio: "",
-        contenido: ``
-    },{
-        id: 17,
-        titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
-        resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
-        portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
-        video: "",
-        audio: "",
-        contenido: ``
+        contenido: `
+<img src="./resources/img/8-10/portada_arbol.png" alt="La isla donde los árboles caminaban" />
+<p>Cuando Nora, Tomás y Lía llegaron a la isla de Bruma Clara, pensaron que el mapa se había equivocado. No había puerto, ni faro, ni caminos marcados. Solo una playa de arena dorada, una colina cubierta de flores azules y un bosque que parecía susurrar con el viento.</p>
+
+<p>Los tres tenían nueve años y viajaban con la escuela en una pequeña excursión científica. Pero, mientras observaban con lupas unas conchas extrañas, una niebla suave los rodeó. Al despejarse, descubrieron que estaban en una parte de la isla que no aparecía en ningún mapa.</p>
+
+<p>—Mirad esos árboles —dijo Lía, señalando el bosque.</p>
+
+<p>Los troncos se movían despacio, como si dieran pasos muy pequeños. Sus raíces salían de la tierra, avanzaban unos centímetros y volvían a hundirse.</p>
+
+<p>—Eso no lo explicaba el cuaderno de ciencias —murmuró Tomás.</p>
+
+<p>Nora, que siempre pensaba antes de correr hacia cualquier misterio, levantó una mano.</p>
+
+<p>—No toquemos nada todavía. Primero observemos.</p>
+
+<p>Caminaron con cuidado hasta encontrar una aldea de casas redondas hechas con barro, hojas y conchas. Allí vivían los isleños, personas tranquilas que hablaban bajito para no asustar al bosque. Una niña llamada Sira les explicó lo que ocurría.</p>
+
+<p>—Antes los árboles solo se movían una vez al año, para buscar mejor luz. Pero ahora caminan cada día. Las sombras cambian, los caminos desaparecen y los pájaros no encuentran sus nidos.</p>
+
+<p>Los habitantes estaban preocupados, pero nadie quería hacer daño a los árboles. Para ellos, el bosque era un vecino más.</p>
+
+<p>Nora, Tomás y Lía pidieron permiso para investigar. Sira los acompañó hasta el corazón de la isla, donde crecía el Árbol Mayor. Su tronco era tan ancho como una casa y sus ramas brillaban con pequeñas luces verdes.</p>
+
+<p>—Quizá está enfadado —dijo Tomás.</p>
+
+<p>—O quizá intenta decir algo —respondió Lía.</p>
+
+<p>Se sentaron en silencio. Durante un rato no hicieron nada, solo escucharon. Entonces notaron un sonido bajo la tierra: un temblor suave, como un tambor escondido.</p>
+
+<p>Nora apoyó la oreja en el suelo.</p>
+
+<p>—Viene de allí.</p>
+
+<p>Siguieron el sonido hasta una cueva pequeña. Dentro encontraron una piedra luminosa atrapada entre raíces secas. Sira explicó que era la Piedra del Agua, la que guiaba los riachuelos subterráneos.</p>
+
+<p>—Hace semanas cayó una tormenta y la entrada de la cueva se cerró —dijo.</p>
+
+<p>Tomás comprendió el problema.</p>
+
+<p>—Si el agua no llega bien al bosque, los árboles caminan buscando humedad.</p>
+
+<p>En vez de mover la piedra sin pensar, hablaron con los isleños. Entre todos formaron una cadena: unos retiraban ramas caídas, otros cavaban pequeños canales y los niños colocaban piedras para que el agua volviera a correr sin dañar las raíces.</p>
+
+<p>Cuando el primer hilo de agua llegó al Árbol Mayor, sus luces verdes brillaron con fuerza. Poco a poco, los árboles dejaron de caminar. Sus raíces se acomodaron en la tierra como si suspiraran tranquilos.</p>
+
+<p>La isla recuperó sus caminos, los pájaros regresaron a sus nidos y los habitantes celebraron una merienda bajo las ramas quietas.</p>
+
+<p>Antes de marcharse, Nora escribió en su cuaderno:</p>
+
+<p><em>“Hoy aprendí que la naturaleza también habla, aunque no use palabras. A veces solo hay que parar, mirar bien y ayudar un poquito para que todo vuelva a estar bien.”</em></p>
+
+<h2>Preguntas para reflexionar</h2>
+
+<ol>
+  <li>¿Por qué Nora propone observar antes de actuar?</li>
+  <li>¿Cómo ayudan los habitantes de la isla a resolver el problema?</li>
+  <li>¿Qué enseña el cuento sobre cuidar la naturaleza?</li>
+</ol>`
     }
 ];
 
