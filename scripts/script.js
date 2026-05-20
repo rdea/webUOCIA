@@ -1162,7 +1162,474 @@ const cuentos = [
   <li>¿Cómo ayudan los habitantes de la isla a resolver el problema?</li>
   <li>¿Qué enseña el cuento sobre cuidar la naturaleza?</li>
 </ol>`
-    }
+    },{
+        id: 16,
+        titulo: "El secreto del río que cambiaba de color",
+        categorias: ["Aventura","8-10 años"],
+        resumen: "Vera y su amigo Leo descubren que el río Claro ha cambiado de color.",
+        portada: "./resources/img/8-10/portada_rio.png", // Imagen de ejemplo
+        video: "",
+        audio: "",
+        contenido: `
+<img src="./resources/img/8-10/portada_rio.png" alt="El río que cambiaba de color" />
+
+<p>Me llamo Vera, tengo nueve años y vivo cerca del Bosque de los Fresnos, un lugar lleno de senderos, pájaros cantarines y árboles tan altos que casi tapan el cielo. Mi sitio favorito siempre había sido el río Claro, porque su agua era transparente y fría incluso en verano.</p>
+
+<p>Pero una mañana todo cambió.</p>
+
+<p>Fui al río con mi amigo Leo para buscar piedras lisas y hacerlas rebotar sobre el agua. En cuanto llegamos, nos quedamos mirando sin decir una palabra.</p>
+
+<p>El río era azul.</p>
+
+<p>No azul normal. Era un azul brillante, casi como si alguien hubiese mezclado pintura con el agua. Y mientras observábamos, el color empezó a cambiar poco a poco hasta volverse verde.</p>
+
+<p>—Esto es rarísimo… —murmuró Leo.</p>
+
+<p>Yo sentí un cosquilleo de emoción y misterio al mismo tiempo.</p>
+
+<p>—Tenemos que descubrir qué pasa —dije.</p>
+
+<p>Leo miró el agua con preocupación.</p>
+
+<p>—Pero sin inventarnos historias. Primero investigamos.</p>
+
+<p>Asentí. Mi abuelo siempre decía que la naturaleza tiene explicaciones sorprendentes si sabes mirar con paciencia.</p>
+
+<p>Seguimos el río hacia arriba, caminando despacio y observándolo todo. Llevábamos una libreta para apuntar pistas. Anotamos que el agua cambiaba más de color en algunas zonas y menos en otras.</p>
+
+<p>El bosque estaba tranquilo. Escuchábamos el sonido de las hojas moviéndose y el murmullo del agua entre las piedras. A veces el río parecía dorado cuando el sol lo tocaba.</p>
+
+<p>—Quizá depende de la luz —dijo Leo.</p>
+
+<p>—O de algo que haya dentro del agua —respondí.</p>
+
+<p>Más adelante encontramos pequeñas hojas violetas flotando cerca de la orilla. No se parecían a ninguna planta que hubiéramos visto antes.</p>
+
+<p>—Mira esto —dije agachándome.</p>
+
+<p>Leo sacó la lupa de la mochila. Las hojas tenían unos puntitos brillantes que reflejaban distintos colores.</p>
+<img src="./resources/img/8-10/rio1.png" alt="Hojas violetas del río" />
+
+<p>Seguimos avanzando río arriba hasta llegar a una zona escondida entre rocas y helechos. Allí descubrimos algo increíble.</p>
+
+<p>Una enorme planta crecía junto al agua. Sus tallos eran plateados y sus flores cambiaban de color según les daba el sol. Algunas eran azules, otras verdes y otras amarillas.</p>
+
+<p>Y justo debajo de la planta, el agua del río cambiaba también.</p>
+
+<p>—¡Ya sabemos de dónde viene! —exclamó Leo.</p>
+
+<p>Observamos con cuidado. Algunos pétalos caían al agua y liberaban un polvillo brillante que el río arrastraba lentamente.</p>
+
+<p>Saqué la libreta y dibujé la planta.</p>
+
+<p>—No parece peligrosa —dije—. Creo que simplemente nunca la habíamos visto antes.</p>
+<img src="./resources/img/8-10/rio2.png" alt="Planta luminaria del agua" />
+
+<p>Entonces apareció la guarda forestal del bosque, que estaba revisando los senderos. Le contamos nuestro descubrimiento y ella sonrió sorprendida.</p>
+
+<p>—Es una planta muy rara llamada luminaria del agua —nos explicó—. Crece solo en lugares donde el río está limpio y la naturaleza está sana.</p>
+
+<p>Leo abrió mucho los ojos.</p>
+
+<p>—Entonces… ¿el río cambiaba de color porque estaba bien cuidado?</p>
+
+<p>La guarda asintió.</p>
+
+<p>—Exacto. A veces la naturaleza nos manda señales hermosas para recordarnos lo importante que es protegerla.</p>
+
+<p>Durante el resto de la tarde ayudamos a limpiar ramas secas y papeles del sendero para mantener el lugar cuidado. También colocaron un pequeño cartel para que los visitantes respetaran aquella zona especial.</p>
+
+<p>Mientras volvía a casa, miré el río una última vez. El agua brillaba verde y dorada bajo el atardecer.</p>
+
+<p>Ese día aprendí que investigar con calma es mejor que sacar conclusiones rápidas, y que algunos secretos de la naturaleza solo aparecen cuando observamos con atención, paciencia y respeto.</p>
+
+<h2>Preguntas para pensar</h2>
+<ul>
+  <li>¿Por qué Vera y Leo deciden investigar antes de imaginar lo que ocurría?</li>
+  <li>¿Qué pistas les ayudaron a descubrir el origen del color del río?</li>
+  <li>¿Cómo podemos cuidar la naturaleza para proteger lugares especiales como el río Claro?</li>
+</ul>`
+    } ,{
+        id: 17,
+        titulo: "La puerta que aparecía solo de noche",
+        categorias: ["Aventura","8-10 años"],
+        resumen: "Un equipo de amigos descubre una puerta misteriosa que aparece solo de noche.",
+        portada: "./resources/img/8-10/portada_puerta.png", // Imagen de ejemplo
+        video: "",
+        audio: "",
+        contenido: `
+<img src="./resources/img/8-10/portada_puerta.png" alt="La puerta que aparecía solo de noche" />
+
+<p>En el pequeño pueblo de Valdemora había un colegio antiguo con paredes de piedra, ventanas altas y un reloj que siempre sonaba dos minutos antes de la hora exacta. Allí estudiaban Nora, Hugo y Salma, tres amigos de nueve años que compartían una enorme curiosidad por todo.</p>
+
+<p>Durante varios días, los niños del pueblo comenzaron a contar cosas extrañas.</p>
+
+<p>—He olvidado el final de mi sueño favorito —dijo un niño en clase.</p>
+
+<p>—Yo antes soñaba que podía volar, pero ahora no sueño nada —comentó otra niña.</p>
+
+<p>Los adultos pensaron que eran simples despistes, pero Nora empezó a sospechar que ocurría algo raro.</p>
+
+<p>Una noche de luna llena, los tres amigos regresaron al colegio para dejar una maqueta olvidada en clase. El patio estaba silencioso y la luz plateada de la luna iluminaba las paredes.</p>
+
+<p>Entonces ocurrió.</p>
+<img src="./resources/img/8-10/portada_puerta.png" alt="La puerta que aparecía solo de noche" />
+
+<p>En una de las paredes del pasillo exterior apareció una pequeña puerta redonda que nunca habían visto antes. Era azul oscuro, tenía un pomo brillante y alrededor había dibujos que parecían estrellas.</p>
+
+<p>—¿La puerta estaba ahí esta mañana? —preguntó Hugo.</p>
+
+<p>Salma negó con la cabeza muy despacio.</p>
+
+<p>La puerta emitía una luz suave, como si respirara.</p>
+
+<p>Nora dio un paso adelante.</p>
+
+<p>—No deberíamos abrirla sin pensar —dijo—. Primero observemos.</p>
+
+<p>Los tres examinaron los dibujos. Hugo descubrió que algunas estrellas formaban lunas crecientes. Salma vio pequeñas nubes grabadas cerca del pomo.</p>
+
+<p>—Parece relacionada con los sueños —susurró.</p>
+
+<p>En ese momento escucharon un sonido leve al otro lado, parecido a risas y suspiros mezclados con viento.</p>
+
+<p>Los amigos se miraron.</p>
+
+<p>—Si esta puerta tiene que ver con los sueños desaparecidos, quizá alguien necesite ayuda —dijo Nora.</p>
+
+<p>Sentían nervios, pero también valentía. Finalmente, decidieron cruzar juntos.</p>
+
+<p>Al abrir la puerta, encontraron un lugar increíble.</p>
+<img src="./resources/img/8-10/puerta1.png" alt="El valle de los sueños" />
+
+<p>Era un enorme valle iluminado por miles de luces flotantes. Algunas parecían cometas, otras pompas brillantes y otras pequeñas estrellas de colores. Cada una contenía imágenes moviéndose dentro: castillos, dragones amistosos, carreras por las nubes, océanos de chocolate y bicicletas voladoras.</p>
+
+<p>—¡Son sueños! —exclamó Hugo.</p>
+
+<p>Pero algo no iba bien.</p>
+
+<p>Las luces estaban atrapadas dentro de jaulas transparentes suspendidas en el aire. Y en el centro del valle, un viejo reloj de arena perdía lentamente sus últimos granos.</p>
+
+<img src="./resources/img/8-10/puerta2.png" alt="Sueños" />
+<p>Un pequeño búho plateado apareció volando hasta ellos.</p>
+
+<p>—Los sueños del pueblo quedaron atrapados aquí cuando la puerta se abrió sin que nadie la cuidara —explicó—. Si no regresan antes del amanecer, desaparecerán para siempre.</p>
+
+<p>Los tres amigos se pusieron manos a la obra.</p>
+
+<p>Salma utilizó su habilidad para resolver acertijos y descubrió cómo abrir las primeras jaulas moviendo unas piezas con forma de luna.</p>
+
+<p>Hugo, que era muy observador, encontró caminos invisibles entre las luces flotantes.</p>
+
+<p>Y Nora organizó todo para que trabajaran rápido sin perder la calma.</p>
+
+<p>Poco a poco, liberaron decenas de sueños. Cada vez que uno escapaba, se transformaba en una chispa luminosa que viajaba hacia el pueblo.</p>
+
+<p>—Ese seguro que era el sueño de Martina —rió Hugo al ver pasar un unicornio patinando.</p>
+
+<p>El reloj de arena casi estaba vacío cuando encontraron la última jaula. Dentro había un sueño pequeñísimo: un niño construyendo un cohete de cartón para viajar a las estrellas.</p>
+
+<p>La cerradura era diferente. Solo podía abrirse si los tres empujaban juntos.</p>
+
+<p>—¡A la vez! —gritó Nora.</p>
+
+<p>Empujaron con todas sus fuerzas.</p>
+
+<p><em>¡CLIC!</em></p>
+
+<p>La jaula se abrió y el último sueño salió disparado como una estrella fugaz.</p>
+
+<p>En ese instante, el búho plateado sonrió.</p>
+
+<p>—Lo habéis conseguido.</p>
+
+<p>La puerta comenzó a brillar de nuevo.</p>
+
+<p>Los amigos corrieron de regreso y cruzaron justo antes de que el amanecer pintara el cielo de naranja.</p>
+<img src="./resources/img/8-10/puerta3.png" alt="La puerta que aparecía solo de noche" />
+
+<p>Cuando miraron atrás, la puerta había desaparecido.</p>
+
+<p>Ese día, en el colegio, todos los niños hablaban emocionados de los sueños maravillosos que habían tenido durante la noche.</p>
+
+<p>Nora, Hugo y Salma no dijeron nada. Solo sonrieron.</p>
+
+<p>Habían aprendido que la valentía no consiste en no tener miedo, sino en ayudar a otros incluso cuando no sabes qué encontrarás al otro lado de una puerta misteriosa. Y también descubrieron que, trabajando juntos, hasta los sueños más difíciles pueden regresar a casa.</p>
+
+<h2>Preguntas para pensar</h2>
+<ul>
+  <li>¿Por qué los protagonistas deciden investigar antes de cruzar la puerta?</li>
+  <li>¿Qué habilidad aporta cada amigo para resolver el problema?</li>
+  <li>Si encontrases una puerta misteriosa, ¿qué harías tú?</li>
+</ul>`
+    } ,{
+        id: 18,
+        titulo: "El mapa que nadie sabía leer",
+        categorias: ["Aventura","8-10 años"],
+        resumen: "Un grupo de amigos encuentra un mapa antiguo en la biblioteca del colegio que nadie ha conseguido descifrar. A través de la observación, el trabajo en equipo y la conexión con la naturaleza, logran interpretar los símbolos del mapa y descubrir un lugar secreto",
+        portada: "./resources/img/8-10/portada_mapa.png", // Imagen de ejemplo
+        video: "",
+        audio: "",
+        contenido: `
+<img src="./resources/img/8-10/portada_mapa.png" alt="El mapa que nadie sabía leer" />
+
+<p>Todo empezó un martes lluvioso en la biblioteca del colegio. Yo había ido allí con mis amigos Dani y Leire porque teníamos que preparar un trabajo de ciencias sobre los bosques de nuestra comarca. Mientras buscábamos libros en una estantería muy alta, Dani tiró sin querer de un tomo enorme lleno de polvo.</p>
+
+<p>El libro cayó al suelo con un golpe seco.</p>
+
+<p>—¡Uy! —dijo Dani agachándose rápidamente.</p>
+
+<p>Cuando lo abrió para comprobar que no se había roto, algo amarillento se deslizó entre las páginas y cayó a nuestros pies.</p>
+<img src="./resources/img/8-10/mapa1.png" alt="El mapa que nadie sabía leer" />
+
+<p>Era un mapa.</p>
+
+<p>Tenía los bordes gastados y estaba cubierto de símbolos extraños: espirales, dibujos de hojas, líneas onduladas y pequeños círculos que parecían lunas. No había palabras ni letras.</p>
+
+<p>—Parece un idioma secreto —susurró Leire.</p>
+
+<p>Yo intenté encontrar caminos o nombres de lugares, pero no entendía nada.</p>
+
+<p>La bibliotecaria se acercó curiosa.</p>
+
+<p>—Ese libro lleva años aquí —nos explicó—. Nadie ha conseguido descifrar el mapa.</p>
+
+<p>Entonces nos contó algo aún más interesante: según una vieja historia del colegio, el mapa señalaba un lugar especial escondido cerca del pueblo.</p>
+
+<p>—Pero hay un problema —añadió sonriendo—. La exposición sobre la historia del colegio será este viernes. Si queréis presentar el descubrimiento, tendréis que resolverlo antes de que termine la semana.</p>
+
+<p>Y así empezó nuestra aventura.</p>
+
+<p>Durante los días siguientes llevamos el mapa a todas partes. Lo observábamos en clase, en el patio y hasta durante el recreo. Dani intentó compararlo con alfabetos antiguos en internet. Leire pensó que quizá eran estrellas. Yo creía que algunos símbolos parecían partes del bosque.</p>
+
+<p>Pero nada encajaba.</p>
+
+<p>El jueves por la tarde decidimos ir al parque natural que había detrás del pueblo para despejarnos un poco. Llevábamos el mapa doblado dentro de mi mochila.</p>
+
+<p>Mientras caminábamos, ocurrió algo extraño.</p>
+
+<p>Leire señaló unas marcas en la corteza de un árbol.</p>
+
+<p>—¡Mirad! Este dibujo se parece al símbolo del mapa.</p>
+
+<p>Sacamos el pergamino rápidamente.</p>
+
+<p>Era verdad.</p>
+
+<p>El símbolo no era una letra. Representaba un fresno.</p>
+
+<p>Seguimos avanzando y Dani descubrió que las líneas onduladas coincidían con el río. Yo me fijé en que los círculos pequeños aparecían donde crecían flores silvestres.</p>
+
+<p>Entonces lo entendimos.</p>
+
+<p>—¡El mapa no se lee como un libro! —exclamé—. Se interpreta observando la naturaleza.</p>
+
+<p>Cada uno de nosotros había reconocido algo distinto porque todos nos fijábamos en cosas diferentes.</p>
+
+<p>Leire observaba detalles pequeños.</p>
+
+<p>Dani encontraba patrones y relaciones.</p>
+
+<p>Y yo sabía orientarme bien por los senderos.</p>
+
+<p>Por separado no habíamos podido resolver el misterio. Pero juntos sí.</p>
+
+<p>Seguimos las pistas durante casi una hora hasta llegar a una colina escondida entre árboles. Allí encontramos un pequeño estanque rodeado de plantas, mariposas y juncos altos que brillaban con la luz de la tarde.</p>
+
+<p>Era un lugar precioso.</p>
+
+<p>Pero también vimos algo preocupante.</p>
+
+<p>Había basura abandonada cerca de la orilla y algunas ramas rotas.</p>
+
+<p>Dani frunció el ceño.</p>
+
+<p>—Quizá el mapa existía para ayudar a proteger este sitio.</p>
+
+<p>Nos quedamos en silencio unos segundos.</p>
+
+<p>Entonces empezamos a recoger papeles y latas. Después hicimos fotos del lugar y hablamos con nuestra profesora para organizar una limpieza con la clase.</p>
+
+<p>El viernes, durante la exposición del colegio, contamos toda la historia. No hablamos solo del mapa, sino también de lo que habíamos aprendido.</p>
+
+<p>Explicamos que algunas cosas importantes no se entienden mirando deprisa, sino observando con atención, escuchando las ideas de los demás y trabajando juntos.</p>
+
+<p>Y aquel estanque secreto, que había permanecido escondido durante tanto tiempo, empezó por fin a ser cuidado como merecía.</p>
+
+<p>Desde entonces entendí que, cuando las personas comparten sus ideas y cuidan juntas lo que las rodea, incluso los lugares más secretos pueden seguir siendo especiales.</p>
+<h2>Preguntas para pensar</h2>
+<ul>
+  <li>¿Qué habilidad diferente aportaba cada miembro del grupo?</li>
+  <li>¿Por qué los protagonistas no pudieron resolver el mapa trabajando solos?</li>
+  <li>¿Qué lugares de tu entorno crees que merecen ser protegidos y cuidados?</li>
+</ul>`
+    } ,{
+        id: 19,
+        titulo: "La ciudad donde nadie decía gracias",
+        categorias: ["8-10 años"],
+        resumen: " En la ciudad de Villaclara, nadie decía “gracias” ni “por favor”. Martín, un niño de nueve años, decide hacer un experimento para cambiar esta situación. Durante una semana, agradece a todas las personas que le ayudan y observa cómo esto afecta a su entorno.",
+        portada: "./resources/img/8-10/portada_ciudad.png", // Imagen de ejemplo
+        video: "",
+        audio: "",
+        contenido: `
+<img src="./resources/img/8-10/portada_ciudad.png" alt="La ciudad donde nadie decía gracias" />
+
+<p>En la ciudad de Villaclara las calles siempre estaban llenas de gente. Los autobuses llegaban puntuales, las tiendas abrían temprano y los parques aparecían limpios cada mañana. Todo funcionaba como un reloj.</p>
+
+<p>Pero había algo extraño.</p>
+
+<p>Nadie decía “gracias”.</p>
+
+<p>Tampoco “por favor”.</p>
+
+<p>Ni siquiera una sonrisa rápida cuando alguien ayudaba a otra persona.</p>
+
+<p>Martín, que tenía nueve años y observaba mucho lo que ocurría a su alrededor, empezó a darse cuenta de ello una mañana camino del colegio.</p>
+
+<p>El conductor del autobús esperó a una señora que corría para no perderlo.</p>
+
+<p>Ella subió deprisa… y no dijo nada.</p>
+
+<p>Después, en la cafetería de la esquina, la panadera preparó varios desayunos mientras atendía a todo el mundo con paciencia.</p>
+
+<p>Nadie le agradeció el esfuerzo.</p>
+
+<p>En el colegio ocurrió igual. El conserje abrió una puerta atascada para varios alumnos, pero todos pasaron sin mirarle siquiera.</p>
+<img src="./resources/img/8-10/ciudad1.png" alt="La ciudad donde nadie decía gracias" />
+
+<p>Martín empezó a sentirse incómodo.</p>
+
+<p>—Es como si las personas fueran invisibles —le comentó a su hermana Clara esa tarde.</p>
+
+<p>Clara se quedó pensando.</p>
+
+<p>—Quizá la gente está tan acostumbrada a que todo funcione que ya no se fija en quién lo hace posible.</p>
+
+<p>A Martín aquella idea no le gustó nada.</p>
+
+<p>Así que decidió hacer un experimento.</p>
+
+<p>Durante una semana iba a dar las gracias a todas las personas que le ayudasen, aunque fuera por algo pequeño. Y además observaría qué ocurría después.</p>
+
+<p>El lunes empezó con algo sencillo.</p>
+
+<p>—Gracias por esperar el autobús —le dijo al conductor.</p>
+
+<p>El hombre levantó las cejas, sorprendido.</p>
+
+<p>Luego sonrió.</p>
+
+<p>—De nada, campeón.</p>
+
+<p>Martín notó algo curioso: el conductor parecía menos cansado.</p>
+
+<p>Más tarde agradeció a la cocinera del comedor que preparara su comida favorita. La cocinera soltó una pequeña risa.</p>
+
+<p>—Hacía tiempo que nadie me decía eso.</p>
+
+<p>El martes dio las gracias a la barrendera que limpiaba las hojas de la plaza. El miércoles al repartidor que subía cajas pesadas a la tienda del barrio. El jueves a la profesora que siempre se quedaba unos minutos más ayudando a quien no entendía un ejercicio.</p>
+
+<p>Y cada vez ocurría algo parecido.</p>
+
+<p>Las personas levantaban la cabeza.</p>
+
+<p>Sonreían.</p>
+
+<p>Algunas parecían incluso caminar más contentas.</p>
+
+<p>Pero lo más sorprendente llegó el viernes.</p>
+
+<p>Martín estaba ayudando a un niño pequeño a recoger unos lápices caídos cuando escuchó detrás de él:</p>
+
+<p>—Gracias.</p>
+
+<p>Era otro alumno.</p>
+
+<p>Después una señora dio las gracias al panadero.</p>
+
+<p>Un hombre sujetó la puerta de la farmacia y recibió un “muchas gracias” acompañado de una sonrisa.</p>
+
+<p>Poco a poco, las palabras comenzaron a aparecer por toda la ciudad.</p>
+
+<p>No cambiaron los edificios ni las calles, pero sí el ambiente.</p>
+
+<p>La gente empezó a mirarse más.</p>
+
+<p>A escuchar.</p>
+
+<p>A valorar el esfuerzo de quienes hacían tareas importantes cada día.</p>
+
+<p>Una tarde, mientras volvían a casa, Clara observó cómo el conductor del autobús sonreía después de que varios pasajeros le dieran las gracias.</p>
+
+<p>—Creo que tu experimento ha funcionado —dijo divertida.</p>
+
+<p>Martín sonrió también.</p>
+
+<p>Había comprendido que las palabras pequeñas también pueden hacer cosas enormes. Un simple “gracias” no cuesta dinero ni tiempo, pero puede recordarle a alguien que su esfuerzo importa y que todos merecen ser tratados con respeto e igualdad.</p>
+
+<p>Y aunque nadie lo anunciara en carteles ni en las noticias, Villaclara empezó a convertirse en un lugar más amable gracias a un gesto tan sencillo que casi todos habían olvidado.</p>
+
+<h2>Preguntas para pensar</h2>
+<ul>
+  <li>¿Por qué Martín decide empezar su experimento?</li>
+  <li>¿Qué cambios observa en las personas cuando les agradece algo?</li>
+  <li>¿Qué personas de tu entorno hacen cosas importantes cada día y merecen un “gracias”?</li>
+</ul>`
+    } ,{
+        id: 15,
+        titulo: "El club de los exploradores invisibles",
+        categorias: ["Aventura","8-10 años"],
+        resumen: "un equipo de amigos llamado el Club de los Exploradores Invisibles descubre que alguien está dejando basura en el bosque del parque. En lugar de culpar o señalar, deciden investigar con cuidado, entender la situación y organizar una recogida de residuos para mejorar el lugar juntos, demostrando empatía, pensamiento crítico y trabajo en equipo.",
+        portada: "./resources/img/8-10/portada_exploradores.png", // Imagen de ejemplo
+        video: "",
+        audio: "",
+        contenido: ``
+    } ,{
+        id: 15,
+        titulo: "El club de los exploradores invisibles",
+        categorias: ["Aventura","8-10 años"],
+        resumen: "un equipo de amigos llamado el Club de los Exploradores Invisibles descubre que alguien está dejando basura en el bosque del parque. En lugar de culpar o señalar, deciden investigar con cuidado, entender la situación y organizar una recogida de residuos para mejorar el lugar juntos, demostrando empatía, pensamiento crítico y trabajo en equipo.",
+        portada: "./resources/img/8-10/portada_exploradores.png", // Imagen de ejemplo
+        video: "",
+        audio: "",
+        contenido: ``
+    } ,{
+        id: 15,
+        titulo: "El club de los exploradores invisibles",
+        categorias: ["Aventura","8-10 años"],
+        resumen: "un equipo de amigos llamado el Club de los Exploradores Invisibles descubre que alguien está dejando basura en el bosque del parque. En lugar de culpar o señalar, deciden investigar con cuidado, entender la situación y organizar una recogida de residuos para mejorar el lugar juntos, demostrando empatía, pensamiento crítico y trabajo en equipo.",
+        portada: "./resources/img/8-10/portada_exploradores.png", // Imagen de ejemplo
+        video: "",
+        audio: "",
+        contenido: ``
+    } ,{
+        id: 15,
+        titulo: "El club de los exploradores invisibles",
+        categorias: ["Aventura","8-10 años"],
+        resumen: "un equipo de amigos llamado el Club de los Exploradores Invisibles descubre que alguien está dejando basura en el bosque del parque. En lugar de culpar o señalar, deciden investigar con cuidado, entender la situación y organizar una recogida de residuos para mejorar el lugar juntos, demostrando empatía, pensamiento crítico y trabajo en equipo.",
+        portada: "./resources/img/8-10/portada_exploradores.png", // Imagen de ejemplo
+        video: "",
+        audio: "",
+        contenido: ``
+    } ,{
+        id: 15,
+        titulo: "El club de los exploradores invisibles",
+        categorias: ["Aventura","8-10 años"],
+        resumen: "un equipo de amigos llamado el Club de los Exploradores Invisibles descubre que alguien está dejando basura en el bosque del parque. En lugar de culpar o señalar, deciden investigar con cuidado, entender la situación y organizar una recogida de residuos para mejorar el lugar juntos, demostrando empatía, pensamiento crítico y trabajo en equipo.",
+        portada: "./resources/img/8-10/portada_exploradores.png", // Imagen de ejemplo
+        video: "",
+        audio: "",
+        contenido: ``
+    } ,{
+        id: 15,
+        titulo: "El club de los exploradores invisibles",
+        categorias: ["Aventura","8-10 años"],
+        resumen: "un equipo de amigos llamado el Club de los Exploradores Invisibles descubre que alguien está dejando basura en el bosque del parque. En lugar de culpar o señalar, deciden investigar con cuidado, entender la situación y organizar una recogida de residuos para mejorar el lugar juntos, demostrando empatía, pensamiento crítico y trabajo en equipo.",
+        portada: "./resources/img/8-10/portada_exploradores.png", // Imagen de ejemplo
+        video: "",
+        audio: "",
+        contenido: ``
+    } 
 ];
 
 const contenedor = document.getElementById('contenedor-cuentos');
