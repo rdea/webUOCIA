@@ -3767,7 +3767,7 @@ const cuentos = [
 `
     },{
         id: 31,
-        titulo: "Capítulo 2: Las sombras con llave",
+        titulo: "Los Guardianes de Lumina: La Ciudad de las Mil Puertas - Capítulo 2: Las sombras con llave",
         categorias: ["Aventura","12-14 años"],
         resumen: "Capítulo 2: Las sombras con llave. Eric, Sira, Nil y Luar se enfrentan a la misteriosa calle blanca que ha aparecido detrás de la Puerta del Norte Mudo. Mientras la puerta comienza a cerrarse, deben decidir si cruzar o no, enfrentándose a las inquietantes sombras que los esperan al fondo.",
         portada: "./resources/img/12-14/portada_sombras_llave.png", // Imagen de ejemplo
@@ -4157,7 +4157,7 @@ const cuentos = [
 `
     },{
         id: 32,
-        titulo: "Capítulo 3: El Archivo que recuerda",
+        titulo: "Los Guardianes de Lumina: La Ciudad de las Mil Puertas - Capítulo 3: El Archivo que recuerda",
         categorias: ["Aventura","12-14 años"],
         resumen: "el archivo que recuerda. Eric, Sira, Nil y Luar deciden investigar el Archivo de Llaves para encontrar el registro original del sellado de la Puerta del Norte Mudo. Sin embargo, al llegar al Archivo, se enfrentan a una fachada sin puertas ni ventanas, y una placa de cobre con inscripciones cambiantes que parecen responder a sus intenciones. A medida que intentan encontrar una forma de entrar, descubren que el Archivo no solo guarda cosas, sino que también recuerda quiénes son y qué buscan.",
         portada: "./resources/img/12-14/portada_archivo.png", // Imagen de ejemplo
@@ -4656,7 +4656,7 @@ const cuentos = [
 <p>Como una llamada desde dentro.</p>`
     },{
         id: 33,
-        titulo: "Capítulo 4: La ciudad que olvidó compartir",
+        titulo: "Los Guardianes de Lumina: La Ciudad de las Mil Puertas -Capítulo 4: La ciudad que olvidó compartir",
         categorias: ["Aventura","12-14 años"],
         resumen: "La ciudad de Lumina oculta secretos que algunos prefieren no descubrir.",
         portada: "./resources/img/12-14/portada_ciudad.png", // Imagen de ejemplo
@@ -5000,8 +5000,8 @@ const cuentos = [
 <p>Venía de la Puerta del Norte Mudo.</p>
 `
     },{
-        id: 33,
-        titulo: "Capítulo 5: El guardián de las sombras",
+        id: 34,
+        titulo: "Los Guardianes de Lumina: La Ciudad de las Mil Puertas -Capítulo 5: El guardián de las sombras",
         categorias: ["Aventura","12-14 años"],
         resumen: "según Inés, una niña de once años, las sombras del barrio de Santa Bruma tenían mensajes secretos que solo ella podía entender.",
         portada: "./resources/img/12-14/portada_guardian.png", // Imagen de ejemplo
@@ -5372,8 +5372,8 @@ const cuentos = [
 <p>Fue porque, desde el otro lado del muro, una voz muy débil pronunció su nombre.</p>
 `
     },{
-        id: 34,
-        titulo: "Capítulo 6: La última llave",
+        id: 35,
+        titulo: "Los Guardianes de Lumina: La Ciudad de las Mil Puertas -Capítulo 6: La última llave",
         categorias: ["Aventura","12-14 años"],
         resumen: "La ultima llave no es una llave. Es una pregunta que se hace tan difícil de responder que parece que solo se puede abrir con ella. Eric la ha estado evitando, pero ahora la puerta del Norte Mudo la ha puesto justo delante de él.",
         portada: "./resources/img/12-14/portada_llave.png", // Imagen de ejemplo
@@ -5732,8 +5732,8 @@ const cuentos = [
 <p>Como si también estuviera esperando.</p>
 `
     },{
-        id: 35,
-        titulo: "Capítulo 7: La elección de los guardianes",
+        id: 36,
+        titulo: "Los Guardianes de Lumina: La Ciudad de las Mil Puertas -Capítulo 7: La elección de los guardianes",
         categorias: ["Aventura","12-14 años"],
         resumen: "Ren ha protegido el muro del Barrio Norte durante años, pero ahora la puerta le ha mostrado una grieta que no debería existir. La última llave es un ancla que podría estabilizar esa grieta, pero usarla también podría abrirla. Eric y los demás tendrán que decidir si confían en Ren para sostener esa responsabilidad o si eligen otro camino.",
         portada: "./resources/img/12-14/portada_eleccion.png", // Imagen de ejemplo
@@ -6204,43 +6204,7 @@ function renderPaginacion(totalPaginas) {
     paginacionNav.appendChild(btnSiguiente);
 }
 
-// 3. ABRIR EL CUENTO (ESTILO LIBRO)
-// function abrirCuento(id) {
-//     const cuento = cuentos.find(c => c.id === id);
-//     if (!cuento) return;
 
-//     let multimediaHTML = "";
-    
-//     // Lógica de Video Local (simplificada para niños)
-//     if (cuento.video && !cuento.video.includes("youtube")) {
-//         multimediaHTML += `
-//             <div class="video-contenedor" style="margin-bottom: 20px;">
-//                 <video controls width="100%" preload="metadata" style="border-radius:15px; background: #000;">
-//                     <source src="${cuento.video}" type="video/mp4">
-//                     Tu navegador no soporta el video.
-//                 </video>
-//             </div>`;
-//     }
-
-//     // Lógica de Audio (simplificada para niños)
-//     if (cuento.audio) {
-//         multimediaHTML += `
-//             <div class="audio-contenedor" style="background: #e1f5fe; padding: 15px; border-radius: 15px; margin-bottom: 20px; text-align:center;">
-//                 <p style="margin:0 0 10px 0; font-weight:bold; color:#0277bd;">🎧 Escuchar la historia:</p>
-//                 <audio controls style="width:100%">
-//                     <source src="${cuento.audio}" type="audio/mpeg">
-//                 </audio>
-//             </div>`;
-//     }
-
-//     modalCuerpo.innerHTML = `
-//         <h2 style="font-size: 2.5rem; color: #ff6b6b; text-align:center; margin-top:0;">${cuento.titulo}</h2>
-//         ${multimediaHTML}
-//         <hr style="border: 0; border-top: 2px dashed #ffcca5; margin: 20px 0;">
-//         <div class="texto-cuento">${cuento.contenido}</div>
-//     `;
-//     modal.style.display = "block";
-// }
 function abrirCuento(id) {
     // Redirige a cuento.html llevando el ID (ej: cuento.html?id=0)
     window.location.href = `cuento.html?id=${id}`;
