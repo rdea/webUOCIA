@@ -192,7 +192,7 @@ const cuentos = [
     },{
         id: 3,
         titulo: "El guardián de los recuerdos olvidados",
-        categorias: ["Fantasia", "aventura","10-12 años"],
+        categorias: ["Aventura","Fantasia", "10-12 años"],
         resumen: "un guardián que protege los recuerdos que están a punto de desaparecer, y dos niños que lo ayudan a salvar la memoria de su abuela.",
         portada: "./resources/img/10-12/portada_guardian.png", // Imagen de ejemplo
         video: "",
@@ -906,7 +906,7 @@ const cuentos = [
     },{
         id: 12,
         titulo: "La bicicleta que aprendió a esperar",
-        categorias: ["aventura","6-8 años"],
+        categorias: ["Aventura","6-8 años"],
         resumen: "la bicicleta Brisa, que siempre quería ir rápido, aprende a esperar a sus amigos más lentos durante un paseo por el parque. A través de esta experiencia, Brisa descubre que la amistad también se construye con paciencia y cuidado hacia los demás.",
         portada: "./resources/img/6-8/portada_bicicleta.png", // Imagen de ejemplo
         video: "",
@@ -6080,8 +6080,12 @@ let filtroActual = "todos";
 let listaFiltrada = [];
 
 // 1. GENERAR NUBE DE ETIQUETAS DINÁMICA
+function normalizarCategoria(cat) {
+    return cat.charAt(0).toUpperCase() + cat.slice(1).toLowerCase();
+}
+
 function generarFiltros() {
-    const todasLasCategorias = cuentos.flatMap(c => c.categorias || []);
+    const todasLasCategorias = cuentos.flatMap(c => (c.categorias || []).map(normalizarCategoria));
     const categoriasUnicas = ["todos", ...new Set(todasLasCategorias)];
 
     menuCategorias.innerHTML = "";
@@ -6112,7 +6116,7 @@ function renderCuentos(filtro = "todos") {
     
     listaFiltrada = filtro === "todos" 
         ? cuentos 
-        : cuentos.filter(c => c.categorias && c.categorias.includes(filtro));
+        : cuentos.filter(c => c.categorias && c.categorias.map(normalizarCategoria).includes(filtro));
 
     const totalPaginas = Math.ceil(listaFiltrada.length / CUENTOS_POR_PAGINA);
     const inicio = (paginaActual - 1) * CUENTOS_POR_PAGINA;
@@ -6121,7 +6125,7 @@ function renderCuentos(filtro = "todos") {
 
     cuentosPagina.forEach(cuento => {
         const etiquetasHTML = (cuento.categorias || []).map(cat => 
-            `<span class="categoria-tag">${cat}</span>`
+            `<span class="categoria-tag">${normalizarCategoria(cat)}</span>`
         ).join("");
 
         const portadaUrl = cuento.portada || 'https://via.placeholder.com/300x250.png?text=Cuento';
