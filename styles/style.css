@@ -330,6 +330,151 @@ body {
     margin: 0 10px;
 }
 
+/* --- Formulario de Contacto --- */
+.contacto-intro {
+    font-size: 1.2rem;
+    color: #5f27cd;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.campo-formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.campo-formulario label {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 1.1rem;
+}
+
+.campo-formulario input,
+.campo-formulario textarea {
+    padding: 15px 20px;
+    border: 3px solid #e8d5f5;
+    border-radius: 15px;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 1rem;
+    background: #faf5ff;
+    transition: border-color 0.3s ease;
+    outline: none;
+}
+
+.campo-formulario input:focus,
+.campo-formulario textarea:focus {
+    border-color: #54a0ff;
+    background: white;
+}
+
+.campo-formulario textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.btn-enviar {
+    padding: 16px 40px;
+    border: none;
+    border-radius: 50px;
+    background: #ff6b6b;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 6px 0px #ee5253;
+    transition: all 0.2s ease;
+    font-family: 'Comic Sans MS', sans-serif;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-self: center;
+}
+
+.btn-enviar:hover {
+    transform: translateY(2px);
+    box-shadow: 0 4px 0px #ee5253;
+    background: #ff9f43;
+}
+
+.btn-enviar i {
+    font-size: 1rem;
+}
+
+.contacto-info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.contacto-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+.contacto-item span {
+    font-size: 1.5rem;
+}
+
+/* --- Página de Privacidad --- */
+.privacidad-contenido section {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 2px dashed #f0e6ff;
+}
+
+.privacidad-contenido section:last-of-type {
+    border-bottom: none;
+}
+
+.privacidad-contenido h2 {
+    color: #5f27cd;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.privacidad-contenido h2 i {
+    color: #ff6b6b;
+    width: 24px;
+}
+
+.privacidad-contenido p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+    margin: 0;
+}
+
+.privacidad-actualizacion {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #f0e6ff;
+}
+
+.privacidad-actualizacion i {
+    margin-right: 5px;
+}
+
 /* --- Footer --- */
 .footer-magico {
     width: 100%;

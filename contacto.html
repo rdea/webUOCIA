@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Mis Cuentos Mágicos</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="cabecera-infantil">
+        <h1 class="titulo-animado">✨ Contacto ✨</h1>
+        <p class="subtitulo">¡Cuéntanos algo! Estaremos encantados de leerte</p>
+    </header>
+
+    <main class="libro-abierto">
+        <a href="index.html" class="btn-volver"><i class="fas fa-arrow-left"></i> Volver a la biblioteca</a>
+
+        <p class="contacto-intro">¿Tienes alguna pregunta, sugerencia o simplemente quieres saludar? ¡Escríbenos!</p>
+
+        <form class="formulario-contacto" action="#" method="post">
+            <div class="campo-formulario">
+                <label for="nombre">Tu nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre aquí..." required>
+            </div>
+
+            <div class="campo-formulario">
+                <label for="email">Tu correo electrónico</label>
+                <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+            </div>
+
+            <div class="campo-formulario">
+                <label for="mensaje">Tu mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="6" placeholder="Escribe tu mensaje aquí..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-enviar"><i class="fas fa-paper-plane"></i> Enviar mensaje</button>
+        </form>
+
+        <div class="contacto-info">
+            <div class="contacto-item">
+                <span>📧</span>
+                <p>aantelos@uoc.edu</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-magico">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Mis Cuentos Mágicos</h3>
+                <p>¡Donde los sueños se hacen realidad!</p>
+            </div>
+            <div class="footer-links">
+                <a href="index.html">Inicio</a>
+                <a href="index.html">Cuentos</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="privacidad.html">Privacidad</a>
+            </div>
+            <div class="footer-social">
+                <span>📱</span>
+                <span>📸</span>
+                <span>📘</span>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Mis Cuentos Mágicos. Hecho con ✨</p>
+        </div>
+    </footer>
+
+</body>
+</html>
